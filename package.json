@@ -1,0 +1,16 @@
+{
+  "name": "gue-engineering-root",
+  "private": true,
+  "workspaces": [
+    "react-template"
+  ],
+  "overrides": {
+    "tar": "^7.5.19"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace react-template",
+    "build": "npm run build --workspace react-template",
+    "start": "npm run start --workspace react-template",
+    "lint": "npm run lint --workspace react-template"
+  }
+}
