@@ -1,11 +1,8 @@
 "use client";
 import dynamic from "next/dynamic";
+import LoadingScreen from "./components/LoadingScreen";
 const App = dynamic(() => import("./App"), {
   ssr: false,
-  loading: () => (
-    <div className="app-loading" role="status">
-      Loading Gue Moni…
-    </div>
-  ),
+  loading: LoadingScreen,
 });
 export default App;
