@@ -1,4 +1,4 @@
-import GueMoniLanding from "@/components/home/GueMoniLanding";
+import ClientApp from '../ClientApp';
 
 export const metadata = {
   title: "Gue Moni Limited | Financial Inclusion & Agency Banking | Tarka, Benue State",
@@ -25,5 +25,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return <GueMoniLanding />;
+  return <ClientApp />;
 }

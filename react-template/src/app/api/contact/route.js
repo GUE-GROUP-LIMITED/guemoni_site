@@ -6,6 +6,9 @@ export const runtime = "nodejs";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const ALLOWED_SERVICES = new Set([
+  "General Enquiry", "Agent Onboarding", "Cash Deposits & Withdrawals",
+  "Money Transfers", "Account Opening", "BVN Enrolment", "Bills & Airtime",
+  "Debit Card Support", "Transaction Support",
   "Software Development",
   "AI Automation",
   "SaaS & Open-Source",
@@ -67,7 +70,7 @@ export async function POST(request) {
 
     if (!message || message.length < 20 || message.length > 3000) {
       return NextResponse.json(
-        { error: "Project brief must be between 20 and 3000 characters." },
+        { error: "Your message must be between 20 and 3000 characters." },
         { status: 400 }
       );
     }

@@ -37,7 +37,7 @@ function buildMail(lead) {
   const phoneText = lead.phone || "Not provided";
   const subject = `New contact inquiry: ${lead.service}`;
   const text = [
-    "A new inquiry was submitted on gueengineering.com",
+    "A new inquiry was submitted on guemoni.com",
     "",
     `Lead ID: ${lead.id}`,
     `Submitted: ${lead.createdAt}`,
@@ -46,7 +46,7 @@ function buildMail(lead) {
     `Phone: ${phoneText}`,
     `Service: ${lead.service}`,
     "",
-    "Project brief:",
+    "Enquiry:",
     lead.message,
   ].join("\n");
 
@@ -58,7 +58,7 @@ function buildMail(lead) {
     <p><strong>Email:</strong> ${escapeHtml(lead.email)}</p>
     <p><strong>Phone:</strong> ${escapeHtml(phoneText)}</p>
     <p><strong>Service:</strong> ${escapeHtml(lead.service)}</p>
-    <p><strong>Project brief:</strong></p>
+    <p><strong>Enquiry:</strong></p>
     <pre style="white-space: pre-wrap; font-family: inherit;">${escapeHtml(lead.message)}</pre>
   `;
 
