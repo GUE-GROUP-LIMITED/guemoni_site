@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // .jsx pages belong to React Router, not the Next Pages Router.
-  pageExtensions: ["js"],
+  pageExtensions: ["js", "ts"],
   async redirects() {
     return [{ source: "/faqs", destination: "/faq", permanent: true }];
   },
