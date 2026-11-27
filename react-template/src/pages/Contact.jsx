@@ -63,7 +63,7 @@ export default function Contact() {
               [
                 "pin",
                 "Visit our agent point",
-                "Behind Township Hall, Wannune 981107, Benue State, Nigeria",
+                "Opposite PDP office, Wannune 981107, Benue State, Nigeria",
                 null,
               ],
               [
@@ -88,7 +88,7 @@ export default function Contact() {
               </div>
             ))}
             <p className="visit-note">
-              Plus Code: HVCH+7M Wannune. Please call ahead to confirm opening
+              Plus Code: HV7P+C4R Wannune. Please call ahead to confirm opening
               hours and service availability.
             </p>
             <Image
@@ -200,16 +200,16 @@ export default function Contact() {
             <div>
               <p className="eyebrow">FIND US IN TARKA</p>
               <h2 id="location-title">Closer to your community.</h2>
-              <p className="map-description">Find us behind Township Hall, Wannune 981107, Benue State. Plus Code: HVCH+7M Wannune.</p>
+              <p className="map-description">Find us opposite PDP office, Wannune 981107, Benue State. Plus Code: HV7P+C4R Wannune.</p>
             </div>
-            <a className="text-link" href="https://www.google.com/maps/search/?api=1&query=HVCH%2B7M%20Wannune%2C%20Benue%2C%20Nigeria" target="_blank" rel="noreferrer">
+            <a className="text-link" href="https://maps.app.goo.gl/Ld2dbxQJau7HKfrb7?g_st=ic" target="_blank" rel="noreferrer">
               Open in Google Maps <Icon size={18} />
             </a>
           </div>
           <iframe
             className="location-map"
-            title="Gue Moni office behind Township Hall, Wannune"
-            src="https://maps.google.com/maps?q=HVCH%2B7M%20Wannune%2C%20Benue%2C%20Nigeria&z=17&output=embed"
+            title="Gue Moni office opposite PDP office, Wannune"
+            src="https://maps.google.com/maps?q=HV7P%2BC4R%20Wannune%2C%20Benue%2C%20Nigeria&z=17&output=embed"
             width="1200"
             height="400"
             loading="lazy"

@@ -162,6 +162,7 @@ p {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
+  gap: 11px;
 }
 .brand-logo {
   display: block;
@@ -170,7 +171,7 @@ p {
   object-fit: contain;
 }
 .site-footer .brand-logo {
-  height: 140px;
+  height: 52px;
 }
 .brand-horizontal {
   gap: 11px;

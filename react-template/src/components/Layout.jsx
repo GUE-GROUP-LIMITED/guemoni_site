@@ -6,12 +6,12 @@ export function Brand({ compact = false }) {
     <Link to="/" className={`brand${compact ? ' brand-horizontal' : ''}`} aria-label="Gue Moni home">
       <img
         className="brand-logo"
-        src={compact ? '/brand/guemoni-emblem.png' : '/brand/guemoni-logo-cropped.png'}
-        alt={compact ? '' : 'Gue Moni Limited — Financial, Banking, Business Advisory'}
-        width={compact ? 955 : 1124}
-        height={compact ? 810 : 1150}
+        src="/brand/guemoni-eagle.svg"
+        alt=""
+        width={1428}
+        height={890}
       />
-      {compact && <span className="brand-wordmark">gue<span>moni</span><small>Banking. Within reach.</small></span>}
+      <span className="brand-wordmark">gue<span>moni</span><small>Banking. Within reach.</small></span>
     </Link>
   );
 }
@@ -101,7 +101,7 @@ export default function Layout() {
               0904 115 7068
             </a>
             <p>
-              Behind Township Hall,
+              Opposite PDP office,
               <br />
               Wannune 981107, Benue State, Nigeria
             </p>
