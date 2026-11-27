@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 const primaryLinks = [
   { href: "/about", label: "About" },
@@ -58,7 +58,7 @@ const Footer = () => {
           <p className="gue-shell-footer__heading">Contact</p>
           <div className="gue-shell-footer__links">
             <a href="mailto:hello@gueengineering.com">hello@gueengineering.com</a>
-            <a href="tel:+2349041157068">+234 904 115 7068</a>
+            <a href="tel:+2349138751997">+234 913 875 1997</a>
             <Link href="/contact">Start a Project</Link>
           </div>
         </div>

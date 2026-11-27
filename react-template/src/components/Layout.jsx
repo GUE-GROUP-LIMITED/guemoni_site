@@ -97,8 +97,8 @@ export default function Layout() {
           </div>
           <div>
             <h3>Let’s talk</h3>
-            <a className="footer-phone" href="tel:+2349041157068">
-              0904 115 7068
+            <a className="footer-phone" href="tel:+2349138751997">
+              0913 875 1997
             </a>
             <p>
               Opposite PDP office,

@@ -31,8 +31,8 @@ const contactDetails = [
   },
   {
     label: "Phone",
-    value: "+234 904 115 7068",
-    href: "tel:+2349041157068",
+    value: "+234 913 875 1997",
+    href: "tel:+2349138751997",
   },
   {
     label: "Location",

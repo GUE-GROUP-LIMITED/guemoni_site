@@ -666,7 +666,7 @@ const GueMoniLanding = () => {
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto">
               {[
-                { Icon: PhoneIcon, label: "Call / WhatsApp", value: "0904 115 7068", href: "tel:+2349041157068" },
+                { Icon: PhoneIcon, label: "Call / WhatsApp", value: "0913 875 1997", href: "tel:+2349138751997" },
                 { Icon: MailIcon, label: "Email", value: "info@guemoni.com", href: "mailto:info@guemoni.com" },
                 { Icon: MapPinIcon, label: "Location", value: "Tarka LGA, Benue State, Nigeria" },
                 { Icon: GlobeIcon, label: "Website", value: "www.guemoni.com", href: "https://www.guemoni.com" },
@@ -728,7 +728,7 @@ const GueMoniLanding = () => {
           <div>
             <p className="text-xs font-medium uppercase tracking-wider text-slate-400 mb-4">Contact</p>
             <div className="flex flex-col gap-2.5">
-              <a href="tel:+2349041157068" className="text-sm text-slate-300 hover:text-white transition-colors">0904 115 7068</a>
+              <a href="tel:+2349138751997" className="text-sm text-slate-300 hover:text-white transition-colors">0913 875 1997</a>
               <a href="mailto:info@guemoni.com" className="text-sm text-slate-300 hover:text-white transition-colors">info@guemoni.com</a>
               <a href="#contact" className="text-sm text-slate-300 hover:text-white transition-colors">Find Our Location</a>
             </div>

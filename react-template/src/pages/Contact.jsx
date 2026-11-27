@@ -69,8 +69,8 @@ export default function Contact() {
               [
                 "phone",
                 "Give us a call",
-                "0904 115 7068",
-                "tel:+2349041157068",
+                "0913 875 1997",
+                "tel:+2349138751997",
               ],
               [
                 "mail",

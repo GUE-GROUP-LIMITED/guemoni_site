@@ -11,7 +11,7 @@ const faqs = [
   ],
   [
     "Where can I find your agent point?",
-    "Find us opposite PDP office, Wannune 981107, Benue State. Our Google Maps Plus Code is HV7P+C4R Wannune. Call 0904 115 7068 for directions and current opening hours.",
+    "Find us opposite PDP office, Wannune 981107, Benue State. Our Google Maps Plus Code is HV7P+C4R Wannune. Call 0913 875 1997 for directions and current opening hours.",
   ],
   [
     "What do I need to open an account?",
